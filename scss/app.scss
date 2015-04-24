@@ -1,6 +1,81 @@
 @import "settings";
 @import "foundation";
 
+h2 {
+	color:#231f20;
+	padding-left: 6px;
+	margin-top:1.4em;
+	margin-bottom:.8em;
+	font-weight: 700;
+}
+
+h2.modal {
+	color:$ghost;
+	padding-left: 0px;
+	margin-top:0;
+	margin-bottom:.3em;
+}
+
+h5.name {
+	font-size: 1.2em;
+	line-height: 1.1em;
+	margin-top:12px;
+}
+
+h5.title {
+	font-size: 1.0em;
+	line-height: 1.2em;
+	color: rgb(239,184,14);
+}
+
+h5.smallname {
+	font-size: 1.1em;
+	line-height: 0.9em;
+}
+
+h5.smalltitle {
+	font-size:0.8em;
+	color: rgb(239,184,14);
+	line-height: 1.0em;
+	padding-bottom: 3px;
+}
+
+p.modal {
+	font-size: 1.1em;
+	line-height: 1.3em;
+	padding-bottom: 3px;
+	padding-top: 3px;
+}
+
+li.modal {
+	font-size: 1.1em;
+	line-height: 1.1em;
+}
+
+p.modal strong {
+	color:rgb(239,184,14);
+	}
+
+p.modal em {
+	color:#54744e;
+}
+
+p.jury {
+	font-size: 0.9em;
+	line-height: 1.2em;
+	padding-bottom: 3px;
+	padding-top: 3px;
+}
+
+p.jury strong {
+	color:rgb(239,184,14);
+	}
+
+p.jury em {
+	color:rgb(239,184,14);
+}
+
+
 // Or selectively include components
 // @import
 //   "foundation/components/accordion",
