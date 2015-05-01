@@ -3,7 +3,35 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Trial of James Holmes: Denver Post Profiles & Documents</title>
+  <!-- SOCIAL META -->
+  <!-- Update your html tag to include the itemscope and itemtype attributes. -->
+    <html itemscope itemtype="http://schema.org/Article">
+
+    <title>Aurora Theater Shooting Trial of James Holmes: Profiles of the Lawyers, Judge and Jury</title>
+    <meta name="description" content="Get to know the judge, lawyers and jury in the Aurora Theater Shooting Trial." />
+
+    <!-- Schema.org markup for Google+ -->
+    <meta itemprop="name" content="Aurora Theater Shooting Trial: Profiles of the Lawyers, Judge and Jury">
+    <meta itemprop="description" content="Get to know the judge, lawyers and jury in the Aurora Theater Shooting Trial.">
+    <meta itemprop="image" content="http://extras.denverpost.com/trial/img/courtroom/samour.jpg">
+
+    <!-- Twitter Card data -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@denverpost">
+    <meta name="twitter:title" content="Aurora Theater Shooting Trial: Profiles of the Lawyers, Judge and Jury">
+    <meta name="twitter:description" content="Get to know the judge, lawyers and jury in the Aurora Theater Shooting Trial.">
+    <meta name="twitter:creator" content="@denverpost">
+    <!-- Twitter summary card with large image must be at least 280x150px -->
+    <meta name="twitter:image:src" content="http://extras.denverpost.com/trial/img/courtroom/samour.jpg">
+
+    <!-- Open Graph data -->
+    <meta property="og:title" content="Aurora Theater Shooting Trial: Profiles of the Lawyers, Judge and Jury" />
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="http://extras.denverpost.com/trial/profiles.html" />
+    <meta property="og:image" content="http://extras.denverpost.com/trial/img/courtroom/samour.jpg" />
+    <meta property="og:description" content="Get to know the judge, lawyers and jury in the Aurora Theater Shooting Trial." />
+    <meta property="og:site_name" content="The Denver Post" />
+    <meta property="article:section" content="Aurora Theater Shooting Trial" />
   <link rel="stylesheet" href="stylesheets/app.css" />
   
   <script src="bower_components/modernizr/modernizr.js"></script>
@@ -58,7 +86,13 @@
       <!-- Right Nav Section -->
       <ul class="right">
         <li class="divider"></li>
-        <li class="top"><a href="http://extras.denverpost.com/trial/profiles.html">Profiles</a></li>
+        <li class="top has-dropdown">
+          <a href="http://extras.denverpost.com/trial/profiles.html">Profiles</a>
+          <ul class="dropdown">
+            <li><a href="http://extras.denverpost.com/trial/victims.html">Victims</a></li>
+            <li><a href="http://extras.denverpost.com/trial/profiles.html">Courtroom</a></li>
+        </ul>
+        </li>
         <li class="divider"></li>
         <li class="top"><a href="http://extras.denverpost.com/trial/docs.html">Documents</a></li>
         <li class="divider"></li>
@@ -229,10 +263,15 @@
   <div class="row">
     <div class="small-12 medium-12 large-12 columns">
       <hr style="margin-top:12px;">
-      <p style="text-align:center;color:#ffffff;font-family:'Open Sans', sans-serif;">Illustrations by Severiano Galván | Profiles by John Ingold | Design by Eric Lubbers</h2>
+      <p style="text-align:center;color:#ffffff;font-family:'Open Sans', sans-serif;">Illustrations by Severiano Galván | Profiles by John Ingold | Design by Eric Lubbers & Dan Schneider</h2>
       </div>
     </div>
-
+<!-- FOOTER -->
+<div class="row">
+  <div class="small-12 columns">
+  <p style="text-align:center;color:#ffffff;font-family:'Open Sans', sans-serif;">All contents Copyright © 2015 <a href="http://www.denverpost.com/" title="The Denver Post" target="_blank">The Denver Post</a>.</span></p>
+</div>
+</div>
     <!-- MODALS -->
     <!-- JUDGE MODAL -->
     <div id="judge" class="reveal-modal medium" data-reveal aria-labelledby="judgeTitle" aria-hidden="true" role="dialog">

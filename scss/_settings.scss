@@ -41,7 +41,7 @@
 // 23. Progress Bar
 // 24. Range Slider
 // 25. Reveal
-// 26. Side Nav
+// 26. Side Navblo
 // 27. Split Buttons
 // 28. Sub Nav
 // 29. Switch
@@ -85,7 +85,7 @@ $include-html-global-classes: $include-html-classes;
 
 // $row-width: rem-calc(1000);
 // $total-columns: 12;
-// $column-gutter: rem-calc(30);
+$column-gutter: rem-calc(30);
 
 // $last-child-float: $opposite-direction;
 
@@ -399,8 +399,8 @@ $hr-border-color: $ghost;
 // $block-grid-elements: 12;
 // $block-grid-default-spacing: rem-calc(20);
 
-// $align-block-grid-to-grid: false;
-// @if $align-block-grid-to-grid {$block-grid-default-spacing: $column-gutter;}
+$align-block-grid-to-grid: true;
+@if $align-block-grid-to-grid {$block-grid-default-spacing: $column-gutter;}
 
 // Enables media queries for block-grid classes. Set to false if writing semantic HTML.
 // $block-grid-media-queries: true;

@@ -4,13 +4,13 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Trial of James Holmes: Denver Post Profiles & Documents</title>
-  <link rel="stylesheet" href="stylesheets/app.css" />
+  <link rel="stylesheet" href="css/app.css" />
   
   <script src="bower_components/modernizr/modernizr.js"></script>
   <link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700|Open+Sans+Condensed:300,700|Open+Sans:400,300,600,700|Raleway:600,800,400,200' rel='stylesheet' type='text/css'>
   <link rel="shortcut icon" href="http://extras.mnginteractive.com/live/media/favicon/dpo/favicon.ico" type="image/x-icon" />
   <script type="text/javascript" src="http://www.googletagservices.com/tag/js/gpt.js"></script>
-  <link rel="stylesheet" href="stylesheets/style.css" />
+  <link rel="stylesheet" href="css/style.css" />
 </head>
 <body>
   <!-- OMNITURE -->
@@ -88,21 +88,46 @@
   <div class="row">
     <div class="small-12 columns">
       <div style="background-color:#ffffff;"><h2>Timeline of Events</h2></div>
-      <iframe src='http://cdn.knightlab.com/libs/timeline/latest/embed/index.html?source=0AoYV5_X0YIRTdGpINFNSTGJIX2FBMFdKMHNNUklKaEE&font=Bevan-PotanoSans&maptype=toner&lang=en&height=800' width='100%' height='800' frameborder='0'></iframe>
+      <iframe src='http://cdn.knightlab.com/libs/timeline/latest/embed/index.html?source=0AoYV5_X0YIRTdGpINFNSTGJIX2FBMFdKMHNNUklKaEE&font=Bevan-PotanoSans&maptype=toner&lang=en&height=700' width='100%' height='800' frameborder='0'></iframe>
     </div>
   </div>
   <!-- END BODY -->
+
+  <div class="row">
+    <div class="small-12 columns">
+      <ul class="large-block-grid-4 medium-block-grid-3 small-block-grid-2">
+      <li>
+        <div class="row">
+          <a href="/ViewerJS/#../docs/Exhibits_4-30-15.pdf"><img src="./docs/exhibit_1147.png" class="imagelink" /></a>
+        </div>
+        <div class="row">
+          <p>PEOPLE'S EXHIBIT #1147</p>
+          <p><em>Location of Anggiat Mora, Rita Paulina, Prodee Patria in theater.</em></p>
+        </div>
+      </li>
+      </ul>
+    </div>
+  </div>
+
   <!-- FOOTER -->
   <div class="row">
     <div class="small-12 medium-12 large-12 columns">
       <hr style="margin-top:12px;">
       <p style="text-align:center;color:#ffffff;font-family:'Open Sans', sans-serif;">Illustrations by Severiano Galván | Profiles by John Ingold | Design by Eric Lubbers</h2>
+    </div>
+  </div>
+
+  <div id="docmodal" class="reveal-modal medium" data-reveal aria-hidden="true" role="dialog">
+    <div class="row">
+      <div class="small-12 columns" id="documentContainer">
       </div>
     </div>
+    <a class="close-reveal-modal" aria-label="Close">&#215;</a>
+  </div>
 
-    
-    <script src="bower_components/jquery/dist/jquery.min.js"></script>
-    <script src="bower_components/foundation/js/foundation.min.js"></script>
-    <script src="js/app.js"></script>
-  </body>
-  </html>
+  
+  <script src="bower_components/jquery/dist/jquery.min.js"></script>
+  <script src="bower_components/foundation/js/foundation.min.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
