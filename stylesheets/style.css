@@ -1,0 +1,96 @@
+.reveal-modal .close-reveal-modal {
+    font-size: 1.9em;
+    line-height: 1;
+    position: absolute;
+    top: -0.7em;
+    right: -0.6em;
+    color: #eee;
+    font-weight: bold;
+    cursor: pointer;
+    -webkit-border-radius: .7em;
+    -moz-border-radius: .7em;
+    border-radius: .7em;
+    border: 2px solid #eee;
+    width: 1.4em;
+    height: 1.4em;
+    padding: .08em 0 0 .33em;
+    background: #231f20;
+}
+
+/*/* top-bar stuff */
+.top-bar .title-area {
+    width:28%;
+}
+.top-bar .name {
+    font-size:20px;
+}
+.top-bar .name p a {
+    width:100%;
+}
+
+.top-bar p,
+.top-bar li {
+    font-size:1.1em;
+}
+.top-bar .name  img {
+    height:28px;
+    margin:8px 15px 8px 10px;
+    float:left;
+}
+.top-bar-section ul li>a {
+    font-family: 'PT Sans',Helvetica,Arial,sans-serif;
+    font-size:18px;
+}
+.top-bar .has-form select {
+    margin:.25em 0;
+    font-size:.75em;
+    font-weight:600;
+    padding-right:1.5em;
+    background-color:#c9c9c9;
+    border:none;
+}
+
+p.navtitle {
+    font-family:'PT Sans', sans-serif;
+    font-weight:700;
+    font-size: 1.6em;
+    vertical-align:middle;
+    color: #ffffff;
+}
+
+.top-bar-section ul li > a {
+    font-size:1.1rem;
+}
+
+
+
+.top-bar-section ul li>a {
+    font-family: 'PT Sans',Helvetica,Arial,sans-serif;
+    font-size:18px;
+}
+
+.wide {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0;
+  margin-bottom: 0;
+  max-width: 100rem;
+}
+
+.close-reveal-modal {
+    font-size: 2.5rem;
+
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.closered {
+    background-color:#d0534f;
+}
+
+@media screen and (max-width: 1024px) {
+    .top-bar .title-area {
+        width:100%;
+    }
+}
