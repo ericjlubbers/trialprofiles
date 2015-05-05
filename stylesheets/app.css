@@ -1798,7 +1798,7 @@ select {
 [class*="block-grid-"] {
   display: block;
   padding: 0;
-  margin: 0 -0.625rem;
+  margin: 0;
 }
 /* line 172, ../bower_components/foundation/scss/foundation/components/_global.scss */
 [class*="block-grid-"]:before, [class*="block-grid-"]:after {
@@ -1814,7 +1814,7 @@ select {
   display: block;
   height: auto;
   float: left;
-  padding: 0 0.625rem 1.25rem;
+  padding: 0 0.9375rem 1.875rem;
 }
 
 @media only screen {
@@ -1831,6 +1831,11 @@ select {
   .small-block-grid-1 > li:nth-of-type(1n+1) {
     clear: both;
   }
+  /* line 85, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
+  .small-block-grid-1 > li:nth-of-type(1n) {
+    padding-left: 0rem;
+    padding-right: 0rem;
+  }
 
   /* line 62, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
   .small-block-grid-2 > li {
@@ -1844,6 +1849,16 @@ select {
   /* line 70, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
   .small-block-grid-2 > li:nth-of-type(2n+1) {
     clear: both;
+  }
+  /* line 85, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
+  .small-block-grid-2 > li:nth-of-type(2n+1) {
+    padding-left: 0rem;
+    padding-right: 0.9375rem;
+  }
+  /* line 85, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
+  .small-block-grid-2 > li:nth-of-type(2n) {
+    padding-left: 0.9375rem;
+    padding-right: 0rem;
   }
 
   /* line 62, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
@@ -1859,6 +1874,21 @@ select {
   .small-block-grid-3 > li:nth-of-type(3n+1) {
     clear: both;
   }
+  /* line 85, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
+  .small-block-grid-3 > li:nth-of-type(3n+1) {
+    padding-left: 0rem;
+    padding-right: 1.25rem;
+  }
+  /* line 85, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
+  .small-block-grid-3 > li:nth-of-type(3n+2) {
+    padding-left: 0.625rem;
+    padding-right: 0.625rem;
+  }
+  /* line 85, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
+  .small-block-grid-3 > li:nth-of-type(3n) {
+    padding-left: 1.25rem;
+    padding-right: 0rem;
+  }
 
   /* line 62, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
   .small-block-grid-4 > li {
@@ -1872,6 +1902,26 @@ select {
   /* line 70, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
   .small-block-grid-4 > li:nth-of-type(4n+1) {
     clear: both;
+  }
+  /* line 85, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
+  .small-block-grid-4 > li:nth-of-type(4n+1) {
+    padding-left: 0rem;
+    padding-right: 1.40625rem;
+  }
+  /* line 85, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
+  .small-block-grid-4 > li:nth-of-type(4n+2) {
+    padding-left: 0.46875rem;
+    padding-right: 0.9375rem;
+  }
+  /* line 85, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
+  .small-block-grid-4 > li:nth-of-type(4n+3) {
+    padding-left: 0.9375rem;
+    padding-right: 0.46875rem;
+  }
+  /* line 85, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
+  .small-block-grid-4 > li:nth-of-type(4n) {
+    padding-left: 1.40625rem;
+    padding-right: 0rem;
   }
 
   /* line 62, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
@@ -1887,6 +1937,31 @@ select {
   .small-block-grid-5 > li:nth-of-type(5n+1) {
     clear: both;
   }
+  /* line 85, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
+  .small-block-grid-5 > li:nth-of-type(5n+1) {
+    padding-left: 0rem;
+    padding-right: 1.5rem;
+  }
+  /* line 85, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
+  .small-block-grid-5 > li:nth-of-type(5n+2) {
+    padding-left: 0.375rem;
+    padding-right: 1.125rem;
+  }
+  /* line 85, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
+  .small-block-grid-5 > li:nth-of-type(5n+3) {
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+  }
+  /* line 85, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
+  .small-block-grid-5 > li:nth-of-type(5n+4) {
+    padding-left: 1.125rem;
+    padding-right: 0.375rem;
+  }
+  /* line 85, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
+  .small-block-grid-5 > li:nth-of-type(5n) {
+    padding-left: 1.5rem;
+    padding-right: 0rem;
+  }
 
   /* line 62, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
   .small-block-grid-6 > li {
@@ -1900,6 +1975,36 @@ select {
   /* line 70, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
   .small-block-grid-6 > li:nth-of-type(6n+1) {
     clear: both;
+  }
+  /* line 85, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
+  .small-block-grid-6 > li:nth-of-type(6n+1) {
+    padding-left: 0rem;
+    padding-right: 1.5625rem;
+  }
+  /* line 85, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
+  .small-block-grid-6 > li:nth-of-type(6n+2) {
+    padding-left: 0.3125rem;
+    padding-right: 1.25rem;
+  }
+  /* line 85, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
+  .small-block-grid-6 > li:nth-of-type(6n+3) {
+    padding-left: 0.625rem;
+    padding-right: 0.9375rem;
+  }
+  /* line 85, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
+  .small-block-grid-6 > li:nth-of-type(6n+4) {
+    padding-left: 0.9375rem;
+    padding-right: 0.625rem;
+  }
+  /* line 85, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
+  .small-block-grid-6 > li:nth-of-type(6n+5) {
+    padding-left: 1.25rem;
+    padding-right: 0.3125rem;
+  }
+  /* line 85, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
+  .small-block-grid-6 > li:nth-of-type(6n) {
+    padding-left: 1.5625rem;
+    padding-right: 0rem;
   }
 
   /* line 62, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
@@ -1915,6 +2020,41 @@ select {
   .small-block-grid-7 > li:nth-of-type(7n+1) {
     clear: both;
   }
+  /* line 85, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
+  .small-block-grid-7 > li:nth-of-type(7n+1) {
+    padding-left: 0rem;
+    padding-right: 1.60714rem;
+  }
+  /* line 85, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
+  .small-block-grid-7 > li:nth-of-type(7n+2) {
+    padding-left: 0.26786rem;
+    padding-right: 1.33929rem;
+  }
+  /* line 85, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
+  .small-block-grid-7 > li:nth-of-type(7n+3) {
+    padding-left: 0.53571rem;
+    padding-right: 1.07143rem;
+  }
+  /* line 85, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
+  .small-block-grid-7 > li:nth-of-type(7n+4) {
+    padding-left: 0.80357rem;
+    padding-right: 0.80357rem;
+  }
+  /* line 85, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
+  .small-block-grid-7 > li:nth-of-type(7n+5) {
+    padding-left: 1.07143rem;
+    padding-right: 0.53571rem;
+  }
+  /* line 85, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
+  .small-block-grid-7 > li:nth-of-type(7n+6) {
+    padding-left: 1.33929rem;
+    padding-right: 0.26786rem;
+  }
+  /* line 85, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
+  .small-block-grid-7 > li:nth-of-type(7n) {
+    padding-left: 1.60714rem;
+    padding-right: 0rem;
+  }
 
   /* line 62, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
   .small-block-grid-8 > li {
@@ -1928,6 +2068,46 @@ select {
   /* line 70, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
   .small-block-grid-8 > li:nth-of-type(8n+1) {
     clear: both;
+  }
+  /* line 85, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
+  .small-block-grid-8 > li:nth-of-type(8n+1) {
+    padding-left: 0rem;
+    padding-right: 1.64063rem;
+  }
+  /* line 85, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
+  .small-block-grid-8 > li:nth-of-type(8n+2) {
+    padding-left: 0.23438rem;
+    padding-right: 1.40625rem;
+  }
+  /* line 85, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
+  .small-block-grid-8 > li:nth-of-type(8n+3) {
+    padding-left: 0.46875rem;
+    padding-right: 1.17188rem;
+  }
+  /* line 85, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
+  .small-block-grid-8 > li:nth-of-type(8n+4) {
+    padding-left: 0.70313rem;
+    padding-right: 0.9375rem;
+  }
+  /* line 85, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
+  .small-block-grid-8 > li:nth-of-type(8n+5) {
+    padding-left: 0.9375rem;
+    padding-right: 0.70313rem;
+  }
+  /* line 85, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
+  .small-block-grid-8 > li:nth-of-type(8n+6) {
+    padding-left: 1.17188rem;
+    padding-right: 0.46875rem;
+  }
+  /* line 85, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
+  .small-block-grid-8 > li:nth-of-type(8n+7) {
+    padding-left: 1.40625rem;
+    padding-right: 0.23438rem;
+  }
+  /* line 85, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
+  .small-block-grid-8 > li:nth-of-type(8n) {
+    padding-left: 1.64063rem;
+    padding-right: 0rem;
   }
 
   /* line 62, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
@@ -1943,6 +2123,51 @@ select {
   .small-block-grid-9 > li:nth-of-type(9n+1) {
     clear: both;
   }
+  /* line 85, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
+  .small-block-grid-9 > li:nth-of-type(9n+1) {
+    padding-left: 0rem;
+    padding-right: 1.66667rem;
+  }
+  /* line 85, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
+  .small-block-grid-9 > li:nth-of-type(9n+2) {
+    padding-left: 0.20833rem;
+    padding-right: 1.45833rem;
+  }
+  /* line 85, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
+  .small-block-grid-9 > li:nth-of-type(9n+3) {
+    padding-left: 0.41667rem;
+    padding-right: 1.25rem;
+  }
+  /* line 85, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
+  .small-block-grid-9 > li:nth-of-type(9n+4) {
+    padding-left: 0.625rem;
+    padding-right: 1.04167rem;
+  }
+  /* line 85, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
+  .small-block-grid-9 > li:nth-of-type(9n+5) {
+    padding-left: 0.83333rem;
+    padding-right: 0.83333rem;
+  }
+  /* line 85, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
+  .small-block-grid-9 > li:nth-of-type(9n+6) {
+    padding-left: 1.04167rem;
+    padding-right: 0.625rem;
+  }
+  /* line 85, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
+  .small-block-grid-9 > li:nth-of-type(9n+7) {
+    padding-left: 1.25rem;
+    padding-right: 0.41667rem;
+  }
+  /* line 85, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
+  .small-block-grid-9 > li:nth-of-type(9n+8) {
+    padding-left: 1.45833rem;
+    padding-right: 0.20833rem;
+  }
+  /* line 85, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
+  .small-block-grid-9 > li:nth-of-type(9n) {
+    padding-left: 1.66667rem;
+    padding-right: 0rem;
+  }
 
   /* line 62, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
   .small-block-grid-10 > li {
@@ -1956,6 +2181,56 @@ select {
   /* line 70, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
   .small-block-grid-10 > li:nth-of-type(10n+1) {
     clear: both;
+  }
+  /* line 85, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
+  .small-block-grid-10 > li:nth-of-type(10n+1) {
+    padding-left: 0rem;
+    padding-right: 1.6875rem;
+  }
+  /* line 85, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
+  .small-block-grid-10 > li:nth-of-type(10n+2) {
+    padding-left: 0.1875rem;
+    padding-right: 1.5rem;
+  }
+  /* line 85, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
+  .small-block-grid-10 > li:nth-of-type(10n+3) {
+    padding-left: 0.375rem;
+    padding-right: 1.3125rem;
+  }
+  /* line 85, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
+  .small-block-grid-10 > li:nth-of-type(10n+4) {
+    padding-left: 0.5625rem;
+    padding-right: 1.125rem;
+  }
+  /* line 85, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
+  .small-block-grid-10 > li:nth-of-type(10n+5) {
+    padding-left: 0.75rem;
+    padding-right: 0.9375rem;
+  }
+  /* line 85, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
+  .small-block-grid-10 > li:nth-of-type(10n+6) {
+    padding-left: 0.9375rem;
+    padding-right: 0.75rem;
+  }
+  /* line 85, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
+  .small-block-grid-10 > li:nth-of-type(10n+7) {
+    padding-left: 1.125rem;
+    padding-right: 0.5625rem;
+  }
+  /* line 85, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
+  .small-block-grid-10 > li:nth-of-type(10n+8) {
+    padding-left: 1.3125rem;
+    padding-right: 0.375rem;
+  }
+  /* line 85, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
+  .small-block-grid-10 > li:nth-of-type(10n+9) {
+    padding-left: 1.5rem;
+    padding-right: 0.1875rem;
+  }
+  /* line 85, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
+  .small-block-grid-10 > li:nth-of-type(10n) {
+    padding-left: 1.6875rem;
+    padding-right: 0rem;
   }
 
   /* line 62, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
@@ -1971,6 +2246,61 @@ select {
   .small-block-grid-11 > li:nth-of-type(11n+1) {
     clear: both;
   }
+  /* line 85, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
+  .small-block-grid-11 > li:nth-of-type(11n+1) {
+    padding-left: 0.0rem;
+    padding-right: 1.70455rem;
+  }
+  /* line 85, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
+  .small-block-grid-11 > li:nth-of-type(11n+2) {
+    padding-left: 0.17045rem;
+    padding-right: 1.53409rem;
+  }
+  /* line 85, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
+  .small-block-grid-11 > li:nth-of-type(11n+3) {
+    padding-left: 0.34091rem;
+    padding-right: 1.36364rem;
+  }
+  /* line 85, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
+  .small-block-grid-11 > li:nth-of-type(11n+4) {
+    padding-left: 0.51136rem;
+    padding-right: 1.19318rem;
+  }
+  /* line 85, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
+  .small-block-grid-11 > li:nth-of-type(11n+5) {
+    padding-left: 0.68182rem;
+    padding-right: 1.02273rem;
+  }
+  /* line 85, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
+  .small-block-grid-11 > li:nth-of-type(11n+6) {
+    padding-left: 0.85227rem;
+    padding-right: 0.85227rem;
+  }
+  /* line 85, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
+  .small-block-grid-11 > li:nth-of-type(11n+7) {
+    padding-left: 1.02273rem;
+    padding-right: 0.68182rem;
+  }
+  /* line 85, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
+  .small-block-grid-11 > li:nth-of-type(11n+8) {
+    padding-left: 1.19318rem;
+    padding-right: 0.51136rem;
+  }
+  /* line 85, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
+  .small-block-grid-11 > li:nth-of-type(11n+9) {
+    padding-left: 1.36364rem;
+    padding-right: 0.34091rem;
+  }
+  /* line 85, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
+  .small-block-grid-11 > li:nth-of-type(11n+10) {
+    padding-left: 1.53409rem;
+    padding-right: 0.17045rem;
+  }
+  /* line 85, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
+  .small-block-grid-11 > li:nth-of-type(11n) {
+    padding-left: 1.70455rem;
+    padding-right: 0.0rem;
+  }
 
   /* line 62, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
   .small-block-grid-12 > li {
@@ -1984,6 +2314,66 @@ select {
   /* line 70, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
   .small-block-grid-12 > li:nth-of-type(12n+1) {
     clear: both;
+  }
+  /* line 85, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
+  .small-block-grid-12 > li:nth-of-type(12n+1) {
+    padding-left: 0rem;
+    padding-right: 1.71875rem;
+  }
+  /* line 85, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
+  .small-block-grid-12 > li:nth-of-type(12n+2) {
+    padding-left: 0.15625rem;
+    padding-right: 1.5625rem;
+  }
+  /* line 85, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
+  .small-block-grid-12 > li:nth-of-type(12n+3) {
+    padding-left: 0.3125rem;
+    padding-right: 1.40625rem;
+  }
+  /* line 85, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
+  .small-block-grid-12 > li:nth-of-type(12n+4) {
+    padding-left: 0.46875rem;
+    padding-right: 1.25rem;
+  }
+  /* line 85, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
+  .small-block-grid-12 > li:nth-of-type(12n+5) {
+    padding-left: 0.625rem;
+    padding-right: 1.09375rem;
+  }
+  /* line 85, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
+  .small-block-grid-12 > li:nth-of-type(12n+6) {
+    padding-left: 0.78125rem;
+    padding-right: 0.9375rem;
+  }
+  /* line 85, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
+  .small-block-grid-12 > li:nth-of-type(12n+7) {
+    padding-left: 0.9375rem;
+    padding-right: 0.78125rem;
+  }
+  /* line 85, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
+  .small-block-grid-12 > li:nth-of-type(12n+8) {
+    padding-left: 1.09375rem;
+    padding-right: 0.625rem;
+  }
+  /* line 85, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
+  .small-block-grid-12 > li:nth-of-type(12n+9) {
+    padding-left: 1.25rem;
+    padding-right: 0.46875rem;
+  }
+  /* line 85, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
+  .small-block-grid-12 > li:nth-of-type(12n+10) {
+    padding-left: 1.40625rem;
+    padding-right: 0.3125rem;
+  }
+  /* line 85, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
+  .small-block-grid-12 > li:nth-of-type(12n+11) {
+    padding-left: 1.5625rem;
+    padding-right: 0.15625rem;
+  }
+  /* line 85, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
+  .small-block-grid-12 > li:nth-of-type(12n) {
+    padding-left: 1.71875rem;
+    padding-right: 0rem;
   }
 }
 @media only screen and (min-width: 40.063em) {
@@ -2000,6 +2390,11 @@ select {
   .medium-block-grid-1 > li:nth-of-type(1n+1) {
     clear: both;
   }
+  /* line 85, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
+  .medium-block-grid-1 > li:nth-of-type(1n) {
+    padding-left: 0rem;
+    padding-right: 0rem;
+  }
 
   /* line 62, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
   .medium-block-grid-2 > li {
@@ -2013,6 +2408,16 @@ select {
   /* line 70, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
   .medium-block-grid-2 > li:nth-of-type(2n+1) {
     clear: both;
+  }
+  /* line 85, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
+  .medium-block-grid-2 > li:nth-of-type(2n+1) {
+    padding-left: 0rem;
+    padding-right: 0.9375rem;
+  }
+  /* line 85, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
+  .medium-block-grid-2 > li:nth-of-type(2n) {
+    padding-left: 0.9375rem;
+    padding-right: 0rem;
   }
 
   /* line 62, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
@@ -2028,6 +2433,21 @@ select {
   .medium-block-grid-3 > li:nth-of-type(3n+1) {
     clear: both;
   }
+  /* line 85, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
+  .medium-block-grid-3 > li:nth-of-type(3n+1) {
+    padding-left: 0rem;
+    padding-right: 1.25rem;
+  }
+  /* line 85, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
+  .medium-block-grid-3 > li:nth-of-type(3n+2) {
+    padding-left: 0.625rem;
+    padding-right: 0.625rem;
+  }
+  /* line 85, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
+  .medium-block-grid-3 > li:nth-of-type(3n) {
+    padding-left: 1.25rem;
+    padding-right: 0rem;
+  }
 
   /* line 62, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
   .medium-block-grid-4 > li {
@@ -2041,6 +2461,26 @@ select {
   /* line 70, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
   .medium-block-grid-4 > li:nth-of-type(4n+1) {
     clear: both;
+  }
+  /* line 85, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
+  .medium-block-grid-4 > li:nth-of-type(4n+1) {
+    padding-left: 0rem;
+    padding-right: 1.40625rem;
+  }
+  /* line 85, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
+  .medium-block-grid-4 > li:nth-of-type(4n+2) {
+    padding-left: 0.46875rem;
+    padding-right: 0.9375rem;
+  }
+  /* line 85, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
+  .medium-block-grid-4 > li:nth-of-type(4n+3) {
+    padding-left: 0.9375rem;
+    padding-right: 0.46875rem;
+  }
+  /* line 85, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
+  .medium-block-grid-4 > li:nth-of-type(4n) {
+    padding-left: 1.40625rem;
+    padding-right: 0rem;
   }
 
   /* line 62, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
@@ -2056,6 +2496,31 @@ select {
   .medium-block-grid-5 > li:nth-of-type(5n+1) {
     clear: both;
   }
+  /* line 85, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
+  .medium-block-grid-5 > li:nth-of-type(5n+1) {
+    padding-left: 0rem;
+    padding-right: 1.5rem;
+  }
+  /* line 85, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
+  .medium-block-grid-5 > li:nth-of-type(5n+2) {
+    padding-left: 0.375rem;
+    padding-right: 1.125rem;
+  }
+  /* line 85, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
+  .medium-block-grid-5 > li:nth-of-type(5n+3) {
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+  }
+  /* line 85, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
+  .medium-block-grid-5 > li:nth-of-type(5n+4) {
+    padding-left: 1.125rem;
+    padding-right: 0.375rem;
+  }
+  /* line 85, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
+  .medium-block-grid-5 > li:nth-of-type(5n) {
+    padding-left: 1.5rem;
+    padding-right: 0rem;
+  }
 
   /* line 62, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
   .medium-block-grid-6 > li {
@@ -2069,6 +2534,36 @@ select {
   /* line 70, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
   .medium-block-grid-6 > li:nth-of-type(6n+1) {
     clear: both;
+  }
+  /* line 85, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
+  .medium-block-grid-6 > li:nth-of-type(6n+1) {
+    padding-left: 0rem;
+    padding-right: 1.5625rem;
+  }
+  /* line 85, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
+  .medium-block-grid-6 > li:nth-of-type(6n+2) {
+    padding-left: 0.3125rem;
+    padding-right: 1.25rem;
+  }
+  /* line 85, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
+  .medium-block-grid-6 > li:nth-of-type(6n+3) {
+    padding-left: 0.625rem;
+    padding-right: 0.9375rem;
+  }
+  /* line 85, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
+  .medium-block-grid-6 > li:nth-of-type(6n+4) {
+    padding-left: 0.9375rem;
+    padding-right: 0.625rem;
+  }
+  /* line 85, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
+  .medium-block-grid-6 > li:nth-of-type(6n+5) {
+    padding-left: 1.25rem;
+    padding-right: 0.3125rem;
+  }
+  /* line 85, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
+  .medium-block-grid-6 > li:nth-of-type(6n) {
+    padding-left: 1.5625rem;
+    padding-right: 0rem;
   }
 
   /* line 62, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
@@ -2084,6 +2579,41 @@ select {
   .medium-block-grid-7 > li:nth-of-type(7n+1) {
     clear: both;
   }
+  /* line 85, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
+  .medium-block-grid-7 > li:nth-of-type(7n+1) {
+    padding-left: 0rem;
+    padding-right: 1.60714rem;
+  }
+  /* line 85, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
+  .medium-block-grid-7 > li:nth-of-type(7n+2) {
+    padding-left: 0.26786rem;
+    padding-right: 1.33929rem;
+  }
+  /* line 85, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
+  .medium-block-grid-7 > li:nth-of-type(7n+3) {
+    padding-left: 0.53571rem;
+    padding-right: 1.07143rem;
+  }
+  /* line 85, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
+  .medium-block-grid-7 > li:nth-of-type(7n+4) {
+    padding-left: 0.80357rem;
+    padding-right: 0.80357rem;
+  }
+  /* line 85, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
+  .medium-block-grid-7 > li:nth-of-type(7n+5) {
+    padding-left: 1.07143rem;
+    padding-right: 0.53571rem;
+  }
+  /* line 85, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
+  .medium-block-grid-7 > li:nth-of-type(7n+6) {
+    padding-left: 1.33929rem;
+    padding-right: 0.26786rem;
+  }
+  /* line 85, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
+  .medium-block-grid-7 > li:nth-of-type(7n) {
+    padding-left: 1.60714rem;
+    padding-right: 0rem;
+  }
 
   /* line 62, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
   .medium-block-grid-8 > li {
@@ -2097,6 +2627,46 @@ select {
   /* line 70, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
   .medium-block-grid-8 > li:nth-of-type(8n+1) {
     clear: both;
+  }
+  /* line 85, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
+  .medium-block-grid-8 > li:nth-of-type(8n+1) {
+    padding-left: 0rem;
+    padding-right: 1.64063rem;
+  }
+  /* line 85, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
+  .medium-block-grid-8 > li:nth-of-type(8n+2) {
+    padding-left: 0.23438rem;
+    padding-right: 1.40625rem;
+  }
+  /* line 85, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
+  .medium-block-grid-8 > li:nth-of-type(8n+3) {
+    padding-left: 0.46875rem;
+    padding-right: 1.17188rem;
+  }
+  /* line 85, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
+  .medium-block-grid-8 > li:nth-of-type(8n+4) {
+    padding-left: 0.70313rem;
+    padding-right: 0.9375rem;
+  }
+  /* line 85, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
+  .medium-block-grid-8 > li:nth-of-type(8n+5) {
+    padding-left: 0.9375rem;
+    padding-right: 0.70313rem;
+  }
+  /* line 85, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
+  .medium-block-grid-8 > li:nth-of-type(8n+6) {
+    padding-left: 1.17188rem;
+    padding-right: 0.46875rem;
+  }
+  /* line 85, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
+  .medium-block-grid-8 > li:nth-of-type(8n+7) {
+    padding-left: 1.40625rem;
+    padding-right: 0.23438rem;
+  }
+  /* line 85, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
+  .medium-block-grid-8 > li:nth-of-type(8n) {
+    padding-left: 1.64063rem;
+    padding-right: 0rem;
   }
 
   /* line 62, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
@@ -2112,6 +2682,51 @@ select {
   .medium-block-grid-9 > li:nth-of-type(9n+1) {
     clear: both;
   }
+  /* line 85, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
+  .medium-block-grid-9 > li:nth-of-type(9n+1) {
+    padding-left: 0rem;
+    padding-right: 1.66667rem;
+  }
+  /* line 85, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
+  .medium-block-grid-9 > li:nth-of-type(9n+2) {
+    padding-left: 0.20833rem;
+    padding-right: 1.45833rem;
+  }
+  /* line 85, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
+  .medium-block-grid-9 > li:nth-of-type(9n+3) {
+    padding-left: 0.41667rem;
+    padding-right: 1.25rem;
+  }
+  /* line 85, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
+  .medium-block-grid-9 > li:nth-of-type(9n+4) {
+    padding-left: 0.625rem;
+    padding-right: 1.04167rem;
+  }
+  /* line 85, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
+  .medium-block-grid-9 > li:nth-of-type(9n+5) {
+    padding-left: 0.83333rem;
+    padding-right: 0.83333rem;
+  }
+  /* line 85, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
+  .medium-block-grid-9 > li:nth-of-type(9n+6) {
+    padding-left: 1.04167rem;
+    padding-right: 0.625rem;
+  }
+  /* line 85, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
+  .medium-block-grid-9 > li:nth-of-type(9n+7) {
+    padding-left: 1.25rem;
+    padding-right: 0.41667rem;
+  }
+  /* line 85, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
+  .medium-block-grid-9 > li:nth-of-type(9n+8) {
+    padding-left: 1.45833rem;
+    padding-right: 0.20833rem;
+  }
+  /* line 85, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
+  .medium-block-grid-9 > li:nth-of-type(9n) {
+    padding-left: 1.66667rem;
+    padding-right: 0rem;
+  }
 
   /* line 62, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
   .medium-block-grid-10 > li {
@@ -2125,6 +2740,56 @@ select {
   /* line 70, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
   .medium-block-grid-10 > li:nth-of-type(10n+1) {
     clear: both;
+  }
+  /* line 85, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
+  .medium-block-grid-10 > li:nth-of-type(10n+1) {
+    padding-left: 0rem;
+    padding-right: 1.6875rem;
+  }
+  /* line 85, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
+  .medium-block-grid-10 > li:nth-of-type(10n+2) {
+    padding-left: 0.1875rem;
+    padding-right: 1.5rem;
+  }
+  /* line 85, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
+  .medium-block-grid-10 > li:nth-of-type(10n+3) {
+    padding-left: 0.375rem;
+    padding-right: 1.3125rem;
+  }
+  /* line 85, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
+  .medium-block-grid-10 > li:nth-of-type(10n+4) {
+    padding-left: 0.5625rem;
+    padding-right: 1.125rem;
+  }
+  /* line 85, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
+  .medium-block-grid-10 > li:nth-of-type(10n+5) {
+    padding-left: 0.75rem;
+    padding-right: 0.9375rem;
+  }
+  /* line 85, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
+  .medium-block-grid-10 > li:nth-of-type(10n+6) {
+    padding-left: 0.9375rem;
+    padding-right: 0.75rem;
+  }
+  /* line 85, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
+  .medium-block-grid-10 > li:nth-of-type(10n+7) {
+    padding-left: 1.125rem;
+    padding-right: 0.5625rem;
+  }
+  /* line 85, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
+  .medium-block-grid-10 > li:nth-of-type(10n+8) {
+    padding-left: 1.3125rem;
+    padding-right: 0.375rem;
+  }
+  /* line 85, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
+  .medium-block-grid-10 > li:nth-of-type(10n+9) {
+    padding-left: 1.5rem;
+    padding-right: 0.1875rem;
+  }
+  /* line 85, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
+  .medium-block-grid-10 > li:nth-of-type(10n) {
+    padding-left: 1.6875rem;
+    padding-right: 0rem;
   }
 
   /* line 62, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
@@ -2140,6 +2805,61 @@ select {
   .medium-block-grid-11 > li:nth-of-type(11n+1) {
     clear: both;
   }
+  /* line 85, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
+  .medium-block-grid-11 > li:nth-of-type(11n+1) {
+    padding-left: 0.0rem;
+    padding-right: 1.70455rem;
+  }
+  /* line 85, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
+  .medium-block-grid-11 > li:nth-of-type(11n+2) {
+    padding-left: 0.17045rem;
+    padding-right: 1.53409rem;
+  }
+  /* line 85, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
+  .medium-block-grid-11 > li:nth-of-type(11n+3) {
+    padding-left: 0.34091rem;
+    padding-right: 1.36364rem;
+  }
+  /* line 85, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
+  .medium-block-grid-11 > li:nth-of-type(11n+4) {
+    padding-left: 0.51136rem;
+    padding-right: 1.19318rem;
+  }
+  /* line 85, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
+  .medium-block-grid-11 > li:nth-of-type(11n+5) {
+    padding-left: 0.68182rem;
+    padding-right: 1.02273rem;
+  }
+  /* line 85, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
+  .medium-block-grid-11 > li:nth-of-type(11n+6) {
+    padding-left: 0.85227rem;
+    padding-right: 0.85227rem;
+  }
+  /* line 85, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
+  .medium-block-grid-11 > li:nth-of-type(11n+7) {
+    padding-left: 1.02273rem;
+    padding-right: 0.68182rem;
+  }
+  /* line 85, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
+  .medium-block-grid-11 > li:nth-of-type(11n+8) {
+    padding-left: 1.19318rem;
+    padding-right: 0.51136rem;
+  }
+  /* line 85, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
+  .medium-block-grid-11 > li:nth-of-type(11n+9) {
+    padding-left: 1.36364rem;
+    padding-right: 0.34091rem;
+  }
+  /* line 85, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
+  .medium-block-grid-11 > li:nth-of-type(11n+10) {
+    padding-left: 1.53409rem;
+    padding-right: 0.17045rem;
+  }
+  /* line 85, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
+  .medium-block-grid-11 > li:nth-of-type(11n) {
+    padding-left: 1.70455rem;
+    padding-right: 0.0rem;
+  }
 
   /* line 62, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
   .medium-block-grid-12 > li {
@@ -2153,6 +2873,66 @@ select {
   /* line 70, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
   .medium-block-grid-12 > li:nth-of-type(12n+1) {
     clear: both;
+  }
+  /* line 85, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
+  .medium-block-grid-12 > li:nth-of-type(12n+1) {
+    padding-left: 0rem;
+    padding-right: 1.71875rem;
+  }
+  /* line 85, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
+  .medium-block-grid-12 > li:nth-of-type(12n+2) {
+    padding-left: 0.15625rem;
+    padding-right: 1.5625rem;
+  }
+  /* line 85, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
+  .medium-block-grid-12 > li:nth-of-type(12n+3) {
+    padding-left: 0.3125rem;
+    padding-right: 1.40625rem;
+  }
+  /* line 85, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
+  .medium-block-grid-12 > li:nth-of-type(12n+4) {
+    padding-left: 0.46875rem;
+    padding-right: 1.25rem;
+  }
+  /* line 85, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
+  .medium-block-grid-12 > li:nth-of-type(12n+5) {
+    padding-left: 0.625rem;
+    padding-right: 1.09375rem;
+  }
+  /* line 85, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
+  .medium-block-grid-12 > li:nth-of-type(12n+6) {
+    padding-left: 0.78125rem;
+    padding-right: 0.9375rem;
+  }
+  /* line 85, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
+  .medium-block-grid-12 > li:nth-of-type(12n+7) {
+    padding-left: 0.9375rem;
+    padding-right: 0.78125rem;
+  }
+  /* line 85, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
+  .medium-block-grid-12 > li:nth-of-type(12n+8) {
+    padding-left: 1.09375rem;
+    padding-right: 0.625rem;
+  }
+  /* line 85, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
+  .medium-block-grid-12 > li:nth-of-type(12n+9) {
+    padding-left: 1.25rem;
+    padding-right: 0.46875rem;
+  }
+  /* line 85, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
+  .medium-block-grid-12 > li:nth-of-type(12n+10) {
+    padding-left: 1.40625rem;
+    padding-right: 0.3125rem;
+  }
+  /* line 85, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
+  .medium-block-grid-12 > li:nth-of-type(12n+11) {
+    padding-left: 1.5625rem;
+    padding-right: 0.15625rem;
+  }
+  /* line 85, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
+  .medium-block-grid-12 > li:nth-of-type(12n) {
+    padding-left: 1.71875rem;
+    padding-right: 0rem;
   }
 }
 @media only screen and (min-width: 64.063em) {
@@ -2169,6 +2949,11 @@ select {
   .large-block-grid-1 > li:nth-of-type(1n+1) {
     clear: both;
   }
+  /* line 85, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
+  .large-block-grid-1 > li:nth-of-type(1n) {
+    padding-left: 0rem;
+    padding-right: 0rem;
+  }
 
   /* line 62, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
   .large-block-grid-2 > li {
@@ -2182,6 +2967,16 @@ select {
   /* line 70, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
   .large-block-grid-2 > li:nth-of-type(2n+1) {
     clear: both;
+  }
+  /* line 85, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
+  .large-block-grid-2 > li:nth-of-type(2n+1) {
+    padding-left: 0rem;
+    padding-right: 0.9375rem;
+  }
+  /* line 85, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
+  .large-block-grid-2 > li:nth-of-type(2n) {
+    padding-left: 0.9375rem;
+    padding-right: 0rem;
   }
 
   /* line 62, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
@@ -2197,6 +2992,21 @@ select {
   .large-block-grid-3 > li:nth-of-type(3n+1) {
     clear: both;
   }
+  /* line 85, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
+  .large-block-grid-3 > li:nth-of-type(3n+1) {
+    padding-left: 0rem;
+    padding-right: 1.25rem;
+  }
+  /* line 85, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
+  .large-block-grid-3 > li:nth-of-type(3n+2) {
+    padding-left: 0.625rem;
+    padding-right: 0.625rem;
+  }
+  /* line 85, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
+  .large-block-grid-3 > li:nth-of-type(3n) {
+    padding-left: 1.25rem;
+    padding-right: 0rem;
+  }
 
   /* line 62, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
   .large-block-grid-4 > li {
@@ -2210,6 +3020,26 @@ select {
   /* line 70, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
   .large-block-grid-4 > li:nth-of-type(4n+1) {
     clear: both;
+  }
+  /* line 85, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
+  .large-block-grid-4 > li:nth-of-type(4n+1) {
+    padding-left: 0rem;
+    padding-right: 1.40625rem;
+  }
+  /* line 85, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
+  .large-block-grid-4 > li:nth-of-type(4n+2) {
+    padding-left: 0.46875rem;
+    padding-right: 0.9375rem;
+  }
+  /* line 85, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
+  .large-block-grid-4 > li:nth-of-type(4n+3) {
+    padding-left: 0.9375rem;
+    padding-right: 0.46875rem;
+  }
+  /* line 85, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
+  .large-block-grid-4 > li:nth-of-type(4n) {
+    padding-left: 1.40625rem;
+    padding-right: 0rem;
   }
 
   /* line 62, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
@@ -2225,6 +3055,31 @@ select {
   .large-block-grid-5 > li:nth-of-type(5n+1) {
     clear: both;
   }
+  /* line 85, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
+  .large-block-grid-5 > li:nth-of-type(5n+1) {
+    padding-left: 0rem;
+    padding-right: 1.5rem;
+  }
+  /* line 85, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
+  .large-block-grid-5 > li:nth-of-type(5n+2) {
+    padding-left: 0.375rem;
+    padding-right: 1.125rem;
+  }
+  /* line 85, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
+  .large-block-grid-5 > li:nth-of-type(5n+3) {
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+  }
+  /* line 85, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
+  .large-block-grid-5 > li:nth-of-type(5n+4) {
+    padding-left: 1.125rem;
+    padding-right: 0.375rem;
+  }
+  /* line 85, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
+  .large-block-grid-5 > li:nth-of-type(5n) {
+    padding-left: 1.5rem;
+    padding-right: 0rem;
+  }
 
   /* line 62, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
   .large-block-grid-6 > li {
@@ -2238,6 +3093,36 @@ select {
   /* line 70, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
   .large-block-grid-6 > li:nth-of-type(6n+1) {
     clear: both;
+  }
+  /* line 85, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
+  .large-block-grid-6 > li:nth-of-type(6n+1) {
+    padding-left: 0rem;
+    padding-right: 1.5625rem;
+  }
+  /* line 85, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
+  .large-block-grid-6 > li:nth-of-type(6n+2) {
+    padding-left: 0.3125rem;
+    padding-right: 1.25rem;
+  }
+  /* line 85, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
+  .large-block-grid-6 > li:nth-of-type(6n+3) {
+    padding-left: 0.625rem;
+    padding-right: 0.9375rem;
+  }
+  /* line 85, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
+  .large-block-grid-6 > li:nth-of-type(6n+4) {
+    padding-left: 0.9375rem;
+    padding-right: 0.625rem;
+  }
+  /* line 85, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
+  .large-block-grid-6 > li:nth-of-type(6n+5) {
+    padding-left: 1.25rem;
+    padding-right: 0.3125rem;
+  }
+  /* line 85, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
+  .large-block-grid-6 > li:nth-of-type(6n) {
+    padding-left: 1.5625rem;
+    padding-right: 0rem;
   }
 
   /* line 62, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
@@ -2253,6 +3138,41 @@ select {
   .large-block-grid-7 > li:nth-of-type(7n+1) {
     clear: both;
   }
+  /* line 85, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
+  .large-block-grid-7 > li:nth-of-type(7n+1) {
+    padding-left: 0rem;
+    padding-right: 1.60714rem;
+  }
+  /* line 85, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
+  .large-block-grid-7 > li:nth-of-type(7n+2) {
+    padding-left: 0.26786rem;
+    padding-right: 1.33929rem;
+  }
+  /* line 85, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
+  .large-block-grid-7 > li:nth-of-type(7n+3) {
+    padding-left: 0.53571rem;
+    padding-right: 1.07143rem;
+  }
+  /* line 85, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
+  .large-block-grid-7 > li:nth-of-type(7n+4) {
+    padding-left: 0.80357rem;
+    padding-right: 0.80357rem;
+  }
+  /* line 85, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
+  .large-block-grid-7 > li:nth-of-type(7n+5) {
+    padding-left: 1.07143rem;
+    padding-right: 0.53571rem;
+  }
+  /* line 85, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
+  .large-block-grid-7 > li:nth-of-type(7n+6) {
+    padding-left: 1.33929rem;
+    padding-right: 0.26786rem;
+  }
+  /* line 85, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
+  .large-block-grid-7 > li:nth-of-type(7n) {
+    padding-left: 1.60714rem;
+    padding-right: 0rem;
+  }
 
   /* line 62, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
   .large-block-grid-8 > li {
@@ -2266,6 +3186,46 @@ select {
   /* line 70, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
   .large-block-grid-8 > li:nth-of-type(8n+1) {
     clear: both;
+  }
+  /* line 85, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
+  .large-block-grid-8 > li:nth-of-type(8n+1) {
+    padding-left: 0rem;
+    padding-right: 1.64063rem;
+  }
+  /* line 85, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
+  .large-block-grid-8 > li:nth-of-type(8n+2) {
+    padding-left: 0.23438rem;
+    padding-right: 1.40625rem;
+  }
+  /* line 85, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
+  .large-block-grid-8 > li:nth-of-type(8n+3) {
+    padding-left: 0.46875rem;
+    padding-right: 1.17188rem;
+  }
+  /* line 85, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
+  .large-block-grid-8 > li:nth-of-type(8n+4) {
+    padding-left: 0.70313rem;
+    padding-right: 0.9375rem;
+  }
+  /* line 85, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
+  .large-block-grid-8 > li:nth-of-type(8n+5) {
+    padding-left: 0.9375rem;
+    padding-right: 0.70313rem;
+  }
+  /* line 85, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
+  .large-block-grid-8 > li:nth-of-type(8n+6) {
+    padding-left: 1.17188rem;
+    padding-right: 0.46875rem;
+  }
+  /* line 85, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
+  .large-block-grid-8 > li:nth-of-type(8n+7) {
+    padding-left: 1.40625rem;
+    padding-right: 0.23438rem;
+  }
+  /* line 85, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
+  .large-block-grid-8 > li:nth-of-type(8n) {
+    padding-left: 1.64063rem;
+    padding-right: 0rem;
   }
 
   /* line 62, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
@@ -2281,6 +3241,51 @@ select {
   .large-block-grid-9 > li:nth-of-type(9n+1) {
     clear: both;
   }
+  /* line 85, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
+  .large-block-grid-9 > li:nth-of-type(9n+1) {
+    padding-left: 0rem;
+    padding-right: 1.66667rem;
+  }
+  /* line 85, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
+  .large-block-grid-9 > li:nth-of-type(9n+2) {
+    padding-left: 0.20833rem;
+    padding-right: 1.45833rem;
+  }
+  /* line 85, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
+  .large-block-grid-9 > li:nth-of-type(9n+3) {
+    padding-left: 0.41667rem;
+    padding-right: 1.25rem;
+  }
+  /* line 85, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
+  .large-block-grid-9 > li:nth-of-type(9n+4) {
+    padding-left: 0.625rem;
+    padding-right: 1.04167rem;
+  }
+  /* line 85, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
+  .large-block-grid-9 > li:nth-of-type(9n+5) {
+    padding-left: 0.83333rem;
+    padding-right: 0.83333rem;
+  }
+  /* line 85, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
+  .large-block-grid-9 > li:nth-of-type(9n+6) {
+    padding-left: 1.04167rem;
+    padding-right: 0.625rem;
+  }
+  /* line 85, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
+  .large-block-grid-9 > li:nth-of-type(9n+7) {
+    padding-left: 1.25rem;
+    padding-right: 0.41667rem;
+  }
+  /* line 85, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
+  .large-block-grid-9 > li:nth-of-type(9n+8) {
+    padding-left: 1.45833rem;
+    padding-right: 0.20833rem;
+  }
+  /* line 85, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
+  .large-block-grid-9 > li:nth-of-type(9n) {
+    padding-left: 1.66667rem;
+    padding-right: 0rem;
+  }
 
   /* line 62, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
   .large-block-grid-10 > li {
@@ -2294,6 +3299,56 @@ select {
   /* line 70, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
   .large-block-grid-10 > li:nth-of-type(10n+1) {
     clear: both;
+  }
+  /* line 85, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
+  .large-block-grid-10 > li:nth-of-type(10n+1) {
+    padding-left: 0rem;
+    padding-right: 1.6875rem;
+  }
+  /* line 85, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
+  .large-block-grid-10 > li:nth-of-type(10n+2) {
+    padding-left: 0.1875rem;
+    padding-right: 1.5rem;
+  }
+  /* line 85, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
+  .large-block-grid-10 > li:nth-of-type(10n+3) {
+    padding-left: 0.375rem;
+    padding-right: 1.3125rem;
+  }
+  /* line 85, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
+  .large-block-grid-10 > li:nth-of-type(10n+4) {
+    padding-left: 0.5625rem;
+    padding-right: 1.125rem;
+  }
+  /* line 85, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
+  .large-block-grid-10 > li:nth-of-type(10n+5) {
+    padding-left: 0.75rem;
+    padding-right: 0.9375rem;
+  }
+  /* line 85, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
+  .large-block-grid-10 > li:nth-of-type(10n+6) {
+    padding-left: 0.9375rem;
+    padding-right: 0.75rem;
+  }
+  /* line 85, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
+  .large-block-grid-10 > li:nth-of-type(10n+7) {
+    padding-left: 1.125rem;
+    padding-right: 0.5625rem;
+  }
+  /* line 85, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
+  .large-block-grid-10 > li:nth-of-type(10n+8) {
+    padding-left: 1.3125rem;
+    padding-right: 0.375rem;
+  }
+  /* line 85, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
+  .large-block-grid-10 > li:nth-of-type(10n+9) {
+    padding-left: 1.5rem;
+    padding-right: 0.1875rem;
+  }
+  /* line 85, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
+  .large-block-grid-10 > li:nth-of-type(10n) {
+    padding-left: 1.6875rem;
+    padding-right: 0rem;
   }
 
   /* line 62, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
@@ -2309,6 +3364,61 @@ select {
   .large-block-grid-11 > li:nth-of-type(11n+1) {
     clear: both;
   }
+  /* line 85, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
+  .large-block-grid-11 > li:nth-of-type(11n+1) {
+    padding-left: 0.0rem;
+    padding-right: 1.70455rem;
+  }
+  /* line 85, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
+  .large-block-grid-11 > li:nth-of-type(11n+2) {
+    padding-left: 0.17045rem;
+    padding-right: 1.53409rem;
+  }
+  /* line 85, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
+  .large-block-grid-11 > li:nth-of-type(11n+3) {
+    padding-left: 0.34091rem;
+    padding-right: 1.36364rem;
+  }
+  /* line 85, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
+  .large-block-grid-11 > li:nth-of-type(11n+4) {
+    padding-left: 0.51136rem;
+    padding-right: 1.19318rem;
+  }
+  /* line 85, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
+  .large-block-grid-11 > li:nth-of-type(11n+5) {
+    padding-left: 0.68182rem;
+    padding-right: 1.02273rem;
+  }
+  /* line 85, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
+  .large-block-grid-11 > li:nth-of-type(11n+6) {
+    padding-left: 0.85227rem;
+    padding-right: 0.85227rem;
+  }
+  /* line 85, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
+  .large-block-grid-11 > li:nth-of-type(11n+7) {
+    padding-left: 1.02273rem;
+    padding-right: 0.68182rem;
+  }
+  /* line 85, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
+  .large-block-grid-11 > li:nth-of-type(11n+8) {
+    padding-left: 1.19318rem;
+    padding-right: 0.51136rem;
+  }
+  /* line 85, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
+  .large-block-grid-11 > li:nth-of-type(11n+9) {
+    padding-left: 1.36364rem;
+    padding-right: 0.34091rem;
+  }
+  /* line 85, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
+  .large-block-grid-11 > li:nth-of-type(11n+10) {
+    padding-left: 1.53409rem;
+    padding-right: 0.17045rem;
+  }
+  /* line 85, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
+  .large-block-grid-11 > li:nth-of-type(11n) {
+    padding-left: 1.70455rem;
+    padding-right: 0.0rem;
+  }
 
   /* line 62, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
   .large-block-grid-12 > li {
@@ -2322,6 +3432,66 @@ select {
   /* line 70, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
   .large-block-grid-12 > li:nth-of-type(12n+1) {
     clear: both;
+  }
+  /* line 85, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
+  .large-block-grid-12 > li:nth-of-type(12n+1) {
+    padding-left: 0rem;
+    padding-right: 1.71875rem;
+  }
+  /* line 85, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
+  .large-block-grid-12 > li:nth-of-type(12n+2) {
+    padding-left: 0.15625rem;
+    padding-right: 1.5625rem;
+  }
+  /* line 85, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
+  .large-block-grid-12 > li:nth-of-type(12n+3) {
+    padding-left: 0.3125rem;
+    padding-right: 1.40625rem;
+  }
+  /* line 85, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
+  .large-block-grid-12 > li:nth-of-type(12n+4) {
+    padding-left: 0.46875rem;
+    padding-right: 1.25rem;
+  }
+  /* line 85, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
+  .large-block-grid-12 > li:nth-of-type(12n+5) {
+    padding-left: 0.625rem;
+    padding-right: 1.09375rem;
+  }
+  /* line 85, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
+  .large-block-grid-12 > li:nth-of-type(12n+6) {
+    padding-left: 0.78125rem;
+    padding-right: 0.9375rem;
+  }
+  /* line 85, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
+  .large-block-grid-12 > li:nth-of-type(12n+7) {
+    padding-left: 0.9375rem;
+    padding-right: 0.78125rem;
+  }
+  /* line 85, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
+  .large-block-grid-12 > li:nth-of-type(12n+8) {
+    padding-left: 1.09375rem;
+    padding-right: 0.625rem;
+  }
+  /* line 85, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
+  .large-block-grid-12 > li:nth-of-type(12n+9) {
+    padding-left: 1.25rem;
+    padding-right: 0.46875rem;
+  }
+  /* line 85, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
+  .large-block-grid-12 > li:nth-of-type(12n+10) {
+    padding-left: 1.40625rem;
+    padding-right: 0.3125rem;
+  }
+  /* line 85, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
+  .large-block-grid-12 > li:nth-of-type(12n+11) {
+    padding-left: 1.5625rem;
+    padding-right: 0.15625rem;
+  }
+  /* line 85, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
+  .large-block-grid-12 > li:nth-of-type(12n) {
+    padding-left: 1.71875rem;
+    padding-right: 0rem;
   }
 }
 /* line 118, ../bower_components/foundation/scss/foundation/components/_breadcrumbs.scss */
