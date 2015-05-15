@@ -49,7 +49,21 @@
     background-color:#c9c9c9;
     border:none;
 }
-
+p.addeddate {
+    font-style: italic;
+    font-size:.95rem;
+    color: #a5a5a5;
+    margin-top: 1em;
+}
+a.permalinkhash {
+    float:right;
+    text-decoration: underline;
+    font-size:1.1rem;
+    color:rgba(239,184,14,1.0);
+}
+a.permalinkhash:hover {
+    color:rgba(239,184,14,0.8);
+}
 p.navtitle {
     font-family:'PT Sans', sans-serif;
     font-weight:700;
